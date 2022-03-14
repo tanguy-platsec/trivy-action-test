@@ -1,0 +1,501 @@
++---------------------+------------------+----------+-----------------------+-----------------------+------------------------------------------------+
+|       LIBRARY       | VULNERABILITY ID | SEVERITY |   INSTALLED VERSION   |     FIXED VERSION     |                     TITLE                      |
++---------------------+------------------+----------+-----------------------+-----------------------+------------------------------------------------+
+| curl                | CVE-2020-8169    | HIGH     | 7.64.0-4+deb10u1      | 7.64.0-4+deb10u2      | libcurl: partial password                      |
+|                     |                  |          |                       |                       | leak over DNS on HTTP redirect                 |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2020-8169           |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2020-8177    |          |                       |                       | curl: Incorrect argument                       |
+|                     |                  |          |                       |                       | check can allow remote servers                 |
+|                     |                  |          |                       |                       | to overwrite local files...                    |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2020-8177           |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2020-8231    |          |                       |                       | curl: Expired pointer                          |
+|                     |                  |          |                       |                       | dereference via multi API with                 |
+|                     |                  |          |                       |                       | CURLOPT_CONNECT_ONLY option set                |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2020-8231           |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2020-8285    |          |                       |                       | curl: Malicious FTP server can                 |
+|                     |                  |          |                       |                       | trigger stack overflow when                    |
+|                     |                  |          |                       |                       | CURLOPT_CHUNK_BGN_FUNCTION                     |
+|                     |                  |          |                       |                       | is used...                                     |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2020-8285           |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2020-8286    |          |                       |                       | curl: Inferior OCSP verification               |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2020-8286           |
++---------------------+------------------+----------+-----------------------+-----------------------+------------------------------------------------+
+| libbsd0             | CVE-2019-20367   | CRITICAL | 0.9.1-2               | 0.9.1-2+deb10u1       | nlist.c in libbsd before 0.10.0 has            |
+|                     |                  |          |                       |                       | an out-of-bounds read during a com...          |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2019-20367          |
++---------------------+------------------+----------+-----------------------+-----------------------+------------------------------------------------+
+| libcurl3-gnutls     | CVE-2020-8169    | HIGH     | 7.64.0-4+deb10u1      | 7.64.0-4+deb10u2      | libcurl: partial password                      |
+|                     |                  |          |                       |                       | leak over DNS on HTTP redirect                 |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2020-8169           |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2020-8177    |          |                       |                       | curl: Incorrect argument                       |
+|                     |                  |          |                       |                       | check can allow remote servers                 |
+|                     |                  |          |                       |                       | to overwrite local files...                    |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2020-8177           |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2020-8231    |          |                       |                       | curl: Expired pointer                          |
+|                     |                  |          |                       |                       | dereference via multi API with                 |
+|                     |                  |          |                       |                       | CURLOPT_CONNECT_ONLY option set                |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2020-8231           |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2020-8285    |          |                       |                       | curl: Malicious FTP server can                 |
+|                     |                  |          |                       |                       | trigger stack overflow when                    |
+|                     |                  |          |                       |                       | CURLOPT_CHUNK_BGN_FUNCTION                     |
+|                     |                  |          |                       |                       | is used...                                     |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2020-8285           |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2020-8286    |          |                       |                       | curl: Inferior OCSP verification               |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2020-8286           |
++---------------------+------------------+          +                       +                       +------------------------------------------------+
+| libcurl4            | CVE-2020-8169    |          |                       |                       | libcurl: partial password                      |
+|                     |                  |          |                       |                       | leak over DNS on HTTP redirect                 |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2020-8169           |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2020-8177    |          |                       |                       | curl: Incorrect argument                       |
+|                     |                  |          |                       |                       | check can allow remote servers                 |
+|                     |                  |          |                       |                       | to overwrite local files...                    |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2020-8177           |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2020-8231    |          |                       |                       | curl: Expired pointer                          |
+|                     |                  |          |                       |                       | dereference via multi API with                 |
+|                     |                  |          |                       |                       | CURLOPT_CONNECT_ONLY option set                |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2020-8231           |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2020-8285    |          |                       |                       | curl: Malicious FTP server can                 |
+|                     |                  |          |                       |                       | trigger stack overflow when                    |
+|                     |                  |          |                       |                       | CURLOPT_CHUNK_BGN_FUNCTION                     |
+|                     |                  |          |                       |                       | is used...                                     |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2020-8285           |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2020-8286    |          |                       |                       | curl: Inferior OCSP verification               |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2020-8286           |
++---------------------+------------------+----------+-----------------------+-----------------------+------------------------------------------------+
+| libexpat1           | CVE-2022-22822   | CRITICAL | 2.2.6-2+deb10u1       | 2.2.6-2+deb10u2       | expat: Integer overflow in                     |
+|                     |                  |          |                       |                       | addBinding in xmlparse.c                       |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2022-22822          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2022-22823   |          |                       |                       | expat: Integer overflow in                     |
+|                     |                  |          |                       |                       | build_model in xmlparse.c                      |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2022-22823          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2022-22824   |          |                       |                       | expat: Integer overflow in                     |
+|                     |                  |          |                       |                       | defineAttribute in xmlparse.c                  |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2022-22824          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2022-23852   |          |                       |                       | expat: Integer overflow                        |
+|                     |                  |          |                       |                       | in function XML_GetBuffer                      |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2022-23852          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2022-23990   |          |                       |                       | expat: integer overflow                        |
+|                     |                  |          |                       |                       | in the doProlog function                       |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2022-23990          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2022-25235   |          |                       | 2.2.6-2+deb10u3       | expat: Malformed 2- and                        |
+|                     |                  |          |                       |                       | 3-byte UTF-8 sequences can                     |
+|                     |                  |          |                       |                       | lead to arbitrary code...                      |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2022-25235          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2022-25236   |          |                       |                       | expat: Namespace-separator characters          |
+|                     |                  |          |                       |                       | in "xmlns[:prefix]" attribute                  |
+|                     |                  |          |                       |                       | values can lead to arbitrary code...           |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2022-25236          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2022-25315   |          |                       |                       | expat: Integer overflow                        |
+|                     |                  |          |                       |                       | in storeRawNames()                             |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2022-25315          |
++                     +------------------+----------+                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-45960   | HIGH     |                       | 2.2.6-2+deb10u2       | expat: Large number of prefixed XML            |
+|                     |                  |          |                       |                       | attributes on a single tag can...              |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-45960          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2021-46143   |          |                       |                       | expat: Integer overflow                        |
+|                     |                  |          |                       |                       | in doProlog in xmlparse.c                      |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-46143          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2022-22825   |          |                       |                       | expat: Integer overflow                        |
+|                     |                  |          |                       |                       | in lookup in xmlparse.c                        |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2022-22825          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2022-22826   |          |                       |                       | expat: Integer overflow in                     |
+|                     |                  |          |                       |                       | nextScaffoldPart in xmlparse.c                 |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2022-22826          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2022-22827   |          |                       |                       | expat: Integer overflow                        |
+|                     |                  |          |                       |                       | in storeAtts in xmlparse.c                     |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2022-22827          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2022-25314   |          |                       | 2.2.6-2+deb10u3       | expat: integer overflow                        |
+|                     |                  |          |                       |                       | in copyString()                                |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2022-25314          |
++---------------------+------------------+          +-----------------------+-----------------------+------------------------------------------------+
+| libglib2.0-0        | CVE-2021-27218   |          | 2.58.3-2+deb10u2      | 2.58.3-2+deb10u3      | glib: integer overflow in                      |
+|                     |                  |          |                       |                       | g_byte_array_new_take function                 |
+|                     |                  |          |                       |                       | when called with a buffer of...                |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-27218          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2021-27219   |          |                       |                       | glib: integer overflow in                      |
+|                     |                  |          |                       |                       | g_bytes_new function on                        |
+|                     |                  |          |                       |                       | 64-bit platforms due to an...                  |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-27219          |
++---------------------+------------------+----------+-----------------------+-----------------------+------------------------------------------------+
+| libgnutls30         | CVE-2021-20231   | CRITICAL | 3.6.7-4+deb10u6       | 3.6.7-4+deb10u7       | gnutls: Use after free in                      |
+|                     |                  |          |                       |                       | client key_share extension                     |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-20231          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2021-20232   |          |                       |                       | gnutls: Use after free                         |
+|                     |                  |          |                       |                       | in client_send_params in                       |
+|                     |                  |          |                       |                       | lib/ext/pre_shared_key.c                       |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-20232          |
++                     +------------------+----------+                       +                       +------------------------------------------------+
+|                     | CVE-2020-24659   | HIGH     |                       |                       | gnutls: Heap buffer                            |
+|                     |                  |          |                       |                       | overflow in handshake with                     |
+|                     |                  |          |                       |                       | no_renegotiation alert sent                    |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2020-24659          |
++---------------------+------------------+          +-----------------------+-----------------------+------------------------------------------------+
+| libgssapi-krb5-2    | CVE-2021-36222   |          | 1.17-3+deb10u1        | 1.17-3+deb10u2        | krb5: Sending a request containing             |
+|                     |                  |          |                       |                       | PA-ENCRYPTED-CHALLENGE padata                  |
+|                     |                  |          |                       |                       | element without using FAST could...            |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-36222          |
++---------------------+------------------+          +-----------------------+-----------------------+------------------------------------------------+
+| libhogweed4         | CVE-2021-20305   |          | 3.4.1-1               | 3.4.1-1+deb10u1       | nettle: Out of bounds memory                   |
+|                     |                  |          |                       |                       | access in signature verification               |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-20305          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2021-3580    |          |                       |                       | nettle: Remote crash                           |
+|                     |                  |          |                       |                       | in RSA decryption via                          |
+|                     |                  |          |                       |                       | manipulated ciphertext                         |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-3580           |
++---------------------+------------------+          +-----------------------+-----------------------+------------------------------------------------+
+| libk5crypto3        | CVE-2021-36222   |          | 1.17-3+deb10u1        | 1.17-3+deb10u2        | krb5: Sending a request containing             |
+|                     |                  |          |                       |                       | PA-ENCRYPTED-CHALLENGE padata                  |
+|                     |                  |          |                       |                       | element without using FAST could...            |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-36222          |
++---------------------+                  +          +                       +                       +                                                +
+| libkrb5-3           |                  |          |                       |                       |                                                |
+|                     |                  |          |                       |                       |                                                |
+|                     |                  |          |                       |                       |                                                |
+|                     |                  |          |                       |                       |                                                |
++---------------------+                  +          +                       +                       +                                                +
+| libkrb5support0     |                  |          |                       |                       |                                                |
+|                     |                  |          |                       |                       |                                                |
+|                     |                  |          |                       |                       |                                                |
+|                     |                  |          |                       |                       |                                                |
++---------------------+------------------+          +-----------------------+-----------------------+------------------------------------------------+
+| libldap-2.4-2       | CVE-2021-27212   |          | 2.4.47+dfsg-3+deb10u5 | 2.4.47+dfsg-3+deb10u6 | openldap: Assertion                            |
+|                     |                  |          |                       |                       | failure in slapd in the                        |
+|                     |                  |          |                       |                       | issuerAndThisUpdateCheck function              |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-27212          |
++---------------------+                  +          +                       +                       +                                                +
+| libldap-common      |                  |          |                       |                       |                                                |
+|                     |                  |          |                       |                       |                                                |
+|                     |                  |          |                       |                       |                                                |
+|                     |                  |          |                       |                       |                                                |
++---------------------+------------------+----------+-----------------------+-----------------------+------------------------------------------------+
+| liblz4-1            | CVE-2021-3520    | CRITICAL | 1.8.3-1               | 1.8.3-1+deb10u1       | lz4: memory corruption                         |
+|                     |                  |          |                       |                       | due to an integer overflow                     |
+|                     |                  |          |                       |                       | bug caused by memmove...                       |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-3520           |
++---------------------+------------------+----------+-----------------------+-----------------------+------------------------------------------------+
+| libnettle6          | CVE-2021-20305   | HIGH     | 3.4.1-1               | 3.4.1-1+deb10u1       | nettle: Out of bounds memory                   |
+|                     |                  |          |                       |                       | access in signature verification               |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-20305          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2021-3580    |          |                       |                       | nettle: Remote crash                           |
+|                     |                  |          |                       |                       | in RSA decryption via                          |
+|                     |                  |          |                       |                       | manipulated ciphertext                         |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-3580           |
++---------------------+------------------+          +-----------------------+-----------------------+------------------------------------------------+
+| libsasl2-2          | CVE-2022-24407   |          | 2.1.27+dfsg-1+deb10u1 | 2.1.27+dfsg-1+deb10u2 | cyrus-sasl: failure to properly                |
+|                     |                  |          |                       |                       | escape SQL input allows                        |
+|                     |                  |          |                       |                       | an attacker to execute...                      |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2022-24407          |
++---------------------+                  +          +                       +                       +                                                +
+| libsasl2-modules-db |                  |          |                       |                       |                                                |
+|                     |                  |          |                       |                       |                                                |
+|                     |                  |          |                       |                       |                                                |
+|                     |                  |          |                       |                       |                                                |
++---------------------+------------------+----------+-----------------------+-----------------------+------------------------------------------------+
+| libssl1.1           | CVE-2021-3711    | CRITICAL | 1.1.1d-0+deb10u4      | 1.1.1d-0+deb10u7      | openssl: SM2 Decryption                        |
+|                     |                  |          |                       |                       | Buffer Overflow                                |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-3711           |
++                     +------------------+----------+                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-23840   | HIGH     |                       | 1.1.1d-0+deb10u5      | openssl: integer                               |
+|                     |                  |          |                       |                       | overflow in CipherUpdate                       |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-23840          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-3712    |          |                       | 1.1.1d-0+deb10u7      | openssl: Read buffer overruns                  |
+|                     |                  |          |                       |                       | processing ASN.1 strings                       |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-3712           |
++---------------------+------------------+          +-----------------------+-----------------------+------------------------------------------------+
+| libsvn1             | CVE-2020-17525   |          | 1.10.4-1+deb10u1      | 1.10.4-1+deb10u2      | subversion: Remote unauthenticated             |
+|                     |                  |          |                       |                       | denial of service in mod_authz_svn             |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2020-17525          |
++---------------------+------------------+          +-----------------------+-----------------------+------------------------------------------------+
+| linux-libc-dev      | CVE-2020-16119   |          | 4.19.171-2            | 4.19.208-1            | kernel: DCCP CCID structure                    |
+|                     |                  |          |                       |                       | use-after-free may lead to                     |
+|                     |                  |          |                       |                       | DoS or code execution...                       |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2020-16119          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2020-25670   |          |                       | 4.19.194-1            | kernel: refcount leak                          |
+|                     |                  |          |                       |                       | in llcp_sock_bind()                            |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2020-25670          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2020-25671   |          |                       |                       | kernel: refcount leak                          |
+|                     |                  |          |                       |                       | in llcp_sock_connect()                         |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2020-25671          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2020-25672   |          |                       |                       | kernel: memory leak                            |
+|                     |                  |          |                       |                       | in llcp_sock_connect()                         |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2020-25672          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-0512    |          |                       | 4.19.181-1            | kernel: out-of-bounds write due                |
+|                     |                  |          |                       |                       | to a heap buffer overflow in                   |
+|                     |                  |          |                       |                       | __hidinput_change_resolution_multipliers()     |
+|                     |                  |          |                       |                       | of... -->avd.aquasec.com/nvd/cve-2021-0512     |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-20322   |          |                       | 4.19.232-1            | kernel: new DNS Cache                          |
+|                     |                  |          |                       |                       | Poisoning Attack based on ICMP                 |
+|                     |                  |          |                       |                       | fragment needed packets...                     |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-20322          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-22543   |          |                       | 4.19.208-1            | kernel: Improper handling                      |
+|                     |                  |          |                       |                       | of VM_IO|VM_PFNMAP vmas in                     |
+|                     |                  |          |                       |                       | KVM can bypass RO checks...                    |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-22543          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-22555   |          |                       | 4.19.194-1            | kernel: out-of-bounds write in                 |
+|                     |                  |          |                       |                       | xt_compat_target_from_user()                   |
+|                     |                  |          |                       |                       | in net/netfilter/x_tables.c                    |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-22555          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-22600   |          |                       | 4.19.232-1            | kernel: double free in                         |
+|                     |                  |          |                       |                       | packet_set_ring() in                           |
+|                     |                  |          |                       |                       | net/packet/af_packet.c                         |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-22600          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-23133   |          |                       | 4.19.194-1            | kernel: Race condition in                      |
+|                     |                  |          |                       |                       | sctp_destroy_sock list_del                     |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-23133          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2021-23134   |          |                       |                       | kernel: use-after-free in nfc sockets          |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-23134          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-26930   |          |                       | 4.19.177-1            | An issue was discovered in the Linux           |
+|                     |                  |          |                       |                       | kernel 3.11 through 5.10.16, as...             |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-26930          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-27364   |          |                       | 4.19.181-1            | kernel: out-of-bounds                          |
+|                     |                  |          |                       |                       | read in libiscsi module                        |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-27364          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2021-27365   |          |                       |                       | kernel: heap buffer overflow                   |
+|                     |                  |          |                       |                       | in the iSCSI subsystem                         |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-27365          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2021-28660   |          |                       |                       | kernel: buffer overflow in                     |
+|                     |                  |          |                       |                       | rtw_wx_set_scan function in                    |
+|                     |                  |          |                       |                       | drivers/staging/rtl8188eu/os_dep/ioctl_linux.c |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-28660          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-29154   |          |                       | 4.19.194-1            | kernel: Local privilege escalation             |
+|                     |                  |          |                       |                       | due to incorrect BPF JIT branch                |
+|                     |                  |          |                       |                       | displacement computation...                    |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-29154          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2021-32399   |          |                       |                       | kernel: race condition for                     |
+|                     |                  |          |                       |                       | removal of the HCI controller                  |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-32399          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-33033   |          |                       | 4.19.181-1            | kernel: use-after-free                         |
+|                     |                  |          |                       |                       | in cipso_v4_genopt in                          |
+|                     |                  |          |                       |                       | net/ipv4/cipso_ipv4.c                          |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-33033          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-33034   |          |                       | 4.19.194-1            | kernel: use-after-free in                      |
+|                     |                  |          |                       |                       | net/bluetooth/hci_event.c                      |
+|                     |                  |          |                       |                       | when destroying an hci_chan                    |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-33034          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-3348    |          |                       | 4.19.177-1            | kernel: Use-after-free                         |
+|                     |                  |          |                       |                       | in ndb_queue_rq() in                           |
+|                     |                  |          |                       |                       | drivers/block/nbd.c                            |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-3348           |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-33909   |          |                       | 4.19.194-3            | kernel: size_t-to-int conversion               |
+|                     |                  |          |                       |                       | vulnerability in the filesystem layer          |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-33909          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-3444    |          |                       | 4.19.208-1            | kernel: bpf verifier                           |
+|                     |                  |          |                       |                       | incorrect mod32 truncation                     |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-3444           |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-3483    |          |                       | 4.19.194-1            | kernel: use-after-free in                      |
+|                     |                  |          |                       |                       | nosy driver in nosy_ioctl()                    |
+|                     |                  |          |                       |                       | in drivers/firewire/nosy.c                     |
+|                     |                  |          |                       |                       | when a device...                               |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-3483           |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2021-34981   |          |                       |                       | kernel: Bluetooth CMTP                         |
+|                     |                  |          |                       |                       | Module Double Free Privilege                   |
+|                     |                  |          |                       |                       | Escalation Vulnerability                       |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-34981          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-35039   |          |                       | 4.19.208-1            | kernel: allows loading                         |
+|                     |                  |          |                       |                       | unsigned kernel modules                        |
+|                     |                  |          |                       |                       | via init_module syscall                        |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-35039          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-3506    |          |                       | 4.19.194-1            | kernel: Out of bounds memory                   |
+|                     |                  |          |                       |                       | access bug in get_next_net_page()              |
+|                     |                  |          |                       |                       | in fs/f2fs/node.c                              |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-3506           |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-3600    |          |                       | 4.19.208-1            | kernel: eBPF 32-bit source                     |
+|                     |                  |          |                       |                       | register truncation on div/mod                 |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-3600           |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-3609    |          |                       | 4.19.194-3            | kernel: race condition                         |
+|                     |                  |          |                       |                       | in net/can/bcm.c leads to                      |
+|                     |                  |          |                       |                       | local privilege escalation                     |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-3609           |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-3612    |          |                       | 4.19.208-1            | kernel: joydev: zero size passed               |
+|                     |                  |          |                       |                       | to joydev_handle_JSIOCSBTNMAP()                |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-3612           |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2021-3653    |          |                       |                       | kernel: SVM nested virtualization              |
+|                     |                  |          |                       |                       | issue in KVM (AVIC support)                    |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-3653           |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2021-3656    |          |                       |                       | kernel: SVM nested virtualization              |
+|                     |                  |          |                       |                       | issue in KVM (VMLOAD/VMSAVE)                   |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-3656           |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2021-3743    |          |                       |                       | kernel: out-of-bound Read                      |
+|                     |                  |          |                       |                       | in qrtr_endpoint_post                          |
+|                     |                  |          |                       |                       | in net/qrtr/qrtr.c                             |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-3743           |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-3752    |          |                       | 4.19.232-1            | kernel: possible use-after-free                |
+|                     |                  |          |                       |                       | in bluetooth module                            |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-3752           |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-37576   |          |                       | 4.19.208-1            | kernel: powerpc: KVM guest                     |
+|                     |                  |          |                       |                       | OS users can cause host                        |
+|                     |                  |          |                       |                       | OS memory corruption...                        |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-37576          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-3760    |          |                       | 4.19.232-1            | kernel: nfc: Use-After-Free                    |
+|                     |                  |          |                       |                       | vulnerability of                               |
+|                     |                  |          |                       |                       | ndev->rf_conn_info object                      |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-3760           |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-38160   |          |                       | 4.19.208-1            | kernel: data corruption                        |
+|                     |                  |          |                       |                       | or loss can be triggered                       |
+|                     |                  |          |                       |                       | by an untrusted device...                      |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-38160          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-38300   |          |                       | 4.19.232-1            | kernel: crafting anomalous                     |
+|                     |                  |          |                       |                       | machine code may lead to                       |
+|                     |                  |          |                       |                       | arbitrary Kernel code execution...             |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-38300          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2021-39685   |          |                       |                       | kernel: USB gadget buffer overflow             |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-39685          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2021-39686   |          |                       |                       | kernel: race condition in                      |
+|                     |                  |          |                       |                       | the Android binder driver                      |
+|                     |                  |          |                       |                       | could lead to incorrect...                     |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-39686          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2021-39698   |          |                       |                       | kernel: use-after-free in the                  |
+|                     |                  |          |                       |                       | file polling implementation                    |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-39698          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2021-39713   |          |                       |                       | kernel: race condition                         |
+|                     |                  |          |                       |                       | in the network scheduling                      |
+|                     |                  |          |                       |                       | subsystem could lead to an...                  |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-39713          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-40490   |          |                       | 4.19.208-1            | kernel: race condition was discovered          |
+|                     |                  |          |                       |                       | in ext4_write_inline_data_end in               |
+|                     |                  |          |                       |                       | fs/ext4/inline.c in the ext4...                |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-40490          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-4083    |          |                       | 4.19.232-1            | kernel: fget: check that the fd                |
+|                     |                  |          |                       |                       | still exists after getting a ref...            |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-4083           |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2021-41864   |          |                       |                       | kernel: eBPF multiplication                    |
+|                     |                  |          |                       |                       | integer overflow in                            |
+|                     |                  |          |                       |                       | prealloc_elems_and_freelist()                  |
+|                     |                  |          |                       |                       | in kernel/bpf/stackmap.c                       |
+|                     |                  |          |                       |                       | leads to out-of-bounds...                      |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-41864          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-42008   |          |                       | 4.19.208-1            | kernel: slab out-of-bounds                     |
+|                     |                  |          |                       |                       | write in decode_data() in                      |
+|                     |                  |          |                       |                       | drivers/net/hamradio/6pack.c                   |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-42008          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-4202    |          |                       | 4.19.232-1            | kernel: Race condition in                      |
+|                     |                  |          |                       |                       | nci_request() leads to use                     |
+|                     |                  |          |                       |                       | after free while the...                        |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-4202           |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-42252   |          |                       | 4.19.208-1            | kernel: memory overwrite in                    |
+|                     |                  |          |                       |                       | the kernel with potential                      |
+|                     |                  |          |                       |                       | privileges execution                           |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-42252          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-44733   |          |                       | 4.19.232-1            | kernel: use-after-free                         |
+|                     |                  |          |                       |                       | in the TEE subsystem                           |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-44733          |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2021-45469   |          |                       |                       | kernel: out-of-bounds memory                   |
+|                     |                  |          |                       |                       | access in __f2fs_setxattr() in                 |
+|                     |                  |          |                       |                       | fs/f2fs/xattr.c when an inode has...           |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-45469          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-45485   |          |                       | 4.19.208-1            | kernel: information leak                       |
+|                     |                  |          |                       |                       | in the IPv6 implementation                     |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-45485          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2022-0330    |          |                       | 4.19.232-1            | kernel: possible privileges                    |
+|                     |                  |          |                       |                       | escalation due to missing TLB flush            |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2022-0330           |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2022-0435    |          |                       |                       | kernel: remote stack                           |
+|                     |                  |          |                       |                       | overflow via kernel panic                      |
+|                     |                  |          |                       |                       | on systems using TIPC may...                   |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2022-0435           |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2022-0492    |          |                       |                       | kernel: cgroups v1                             |
+|                     |                  |          |                       |                       | release_agent feature may                      |
+|                     |                  |          |                       |                       | allow privilege escalation                     |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2022-0492           |
++                     +------------------+          +                       +                       +------------------------------------------------+
+|                     | CVE-2022-22942   |          |                       |                       | kernel: failing usercopy allows                |
+|                     |                  |          |                       |                       | for use-after-free exploitation                |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2022-22942          |
++---------------------+------------------+----------+-----------------------+-----------------------+------------------------------------------------+
+| openssl             | CVE-2021-3711    | CRITICAL | 1.1.1d-0+deb10u4      | 1.1.1d-0+deb10u7      | openssl: SM2 Decryption                        |
+|                     |                  |          |                       |                       | Buffer Overflow                                |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-3711           |
++                     +------------------+----------+                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-23840   | HIGH     |                       | 1.1.1d-0+deb10u5      | openssl: integer                               |
+|                     |                  |          |                       |                       | overflow in CipherUpdate                       |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-23840          |
++                     +------------------+          +                       +-----------------------+------------------------------------------------+
+|                     | CVE-2021-3712    |          |                       | 1.1.1d-0+deb10u7      | openssl: Read buffer overruns                  |
+|                     |                  |          |                       |                       | processing ASN.1 strings                       |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2021-3712           |
++---------------------+------------------+          +-----------------------+-----------------------+------------------------------------------------+
+| subversion          | CVE-2020-17525   |          | 1.10.4-1+deb10u1      | 1.10.4-1+deb10u2      | subversion: Remote unauthenticated             |
+|                     |                  |          |                       |                       | denial of service in mod_authz_svn             |
+|                     |                  |          |                       |                       | -->avd.aquasec.com/nvd/cve-2020-17525          |
++---------------------+------------------+----------+-----------------------+-----------------------+------------------------------------------------+

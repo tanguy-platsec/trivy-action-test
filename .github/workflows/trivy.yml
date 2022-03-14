@@ -13,30 +13,11 @@ on:
 jobs:
   build:
     name: Vulnerability scanning
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
-      - name: Run Trivy vulnerability scanner
-        id: trivy
-        uses: tanguyseg/trivy-action@outputs
+      - uses: actions/checkout@v3
+      - name: Call my composite action
+        uses: ./.github/actions/composite
         with:
-          image-ref: ${{ github.event.inputs.image }}:${{ github.event.inputs.tag }}
-          format: table
-          exit-code: 0
-          ignore-unfixed: true
-          vuln-type: os,library
-          severity: CRITICAL,HIGH
-
-      # The goal here is to do something only if Trivy detected some
-      #   vulnerabilities, while keeping its exit code at 0 to prevent it from
-      #   failing if used in another composite action
-      - name: Do something if trivy found a vulnerability
-        if: ${{ steps.trivy.outputs.total }} != 0
-        run: |
-          echo Trivy found ${{ steps.trivy.outputs.total }} vulnerabilites
-          exit 1
-      - name: Do something else if trivy did not find any vulnerability
-        if: ${{ steps.trivy.outputs.total }} == 0
-        run: |
-          echo Trivy did not found any vulnerability
-
-
+          image: ${{ github.event.inputs.image }}
+          tag: ${{ github.event.inputs.tag }}

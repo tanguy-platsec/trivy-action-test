@@ -1,0 +1,39 @@
+description: Build docker image
+inputs:
+  image:
+    description: Docker image identifier
+    required: true
+  tag:
+    description: Docker image reference
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Run Trivy vulnerability scanner
+      id: trivy
+      uses: tanguyseg/trivy-action@outputs
+      with:
+        image-ref: ${{ inputs.image }}:${{ inputs.tag }}
+        format: table
+        exit-code: 1
+        ignore-unfixed: true
+        vuln-type: os,library
+        severity: CRITICAL,HIGH
+
+    - name: Do something if trivy found a vulnerability
+      #if: steps.trivy.outputs.total != 0
+      #if: steps.trivy.outputs.conclusion == 'failure'
+      if: failure()
+      shell: bash
+      id: trivyconsequence
+      run: |
+        echo Trivy found some vulnerabilites
+        echo "::set-output name=correct-status::true"
+        #echo Trivy found ${{ steps.trivy.outputs.total }} vulnerabilites
+
+    - name: Correct job status
+      if: always()
+      shell: bash
+      run: |
+        [ ${{ steps.trivyconsequence.outputs.correct-status }} ] && exit 0
